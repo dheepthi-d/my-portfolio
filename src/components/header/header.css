@@ -1,0 +1,152 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.container h5 {
+  font-size: 0rem;
+}
+.container h5 {
+  font-size: 3rem;
+}
+
+.container h1 {
+  font-weight: 1000;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(57, 175, 175);
+  background: url(../../assets/dot.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.cta {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cta .btn {
+  height: 45px;
+}
+
+.header_socials {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  left: 0 rem;
+  bottom: 3rem;
+}
+
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2 rem;
+  background-color: var(--color-primary);
+}
+
+.me {
+  background-image: linear-gradient(transparent, var(--color-primary));
+  width: 20rem;
+  height: auto;
+  position: relative;
+  left: calc(50% - 10rem);
+  margin-top: 2rem;
+  border-radius: 200px 200px 0 0;
+}
+.me:hover {
+  background-image: linear-gradient(rgb(19, 85, 69), transparent);
+  cursor: pointer;
+}
+
+img {
+  margin-top: 1rem;
+  border-radius: 100px 100px 0 0;
+}
+
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 8rem;
+  transform: rotate(90deg);
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+/*----------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  header {
+    margin-top: 2rem;
+    height: 70vh;
+  }
+  .container h1 {
+    font-size: 4rem;
+  }
+  .container h5 {
+    font-size: 2rem;
+  }
+  .header_socials,
+  .scroll__down {
+    display: none;
+  }
+  .me {
+    width: 10rem;
+    height: 17rem;
+    left: calc(50% - 6rem);
+    margin-top: 4rem;
+    border-radius: 50px 50px 0 0;
+  }
+  img {
+    margin-top: 4rem;
+    /* border-radius: 100px 100px 0 0; */
+  }
+}
+
+/*----------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  header {
+    margin-top: 2rem;
+    height: 80vh;
+  }
+
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container h5 {
+    font-size: 1rem;
+  }
+
+  .container img {
+    margin-top: 1rem;
+  }
+  .me {
+    background-image: none;
+    width: 10rem;
+    height: 16rem;
+    left: calc(50% - 5.3rem);
+    margin-top: 1rem;
+    border-radius: 200px 200px 0 0;
+  }
+
+  .header_socials,
+  .scroll__down {
+    display: none;
+  }
+}
