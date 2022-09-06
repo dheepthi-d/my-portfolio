@@ -16,23 +16,23 @@ const data = [
   {
     id: 2,
     image: IMG4,
-    title: "Okinawa Motors Landing Page Clone",
+    title: "DIGILEARN- An Online Course Platform",
     github: "http://github.com",
     demo: "https://okinawalandingpageclone.netlify.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Okinawa Motors Landing Page Clone",
-    github: "http://github.com",
-    demo: "https://okinawalandingpageclone.netlify.app/",
+    title: "Photography Website Landing Page",
+    github: "https://github.com/dheepthi-d/PhotographywebsiteLandingpage",
+    demo: "https://lenzdpotraits.netlify.app/",
   },
   {
     id: 4,
     image: IMG2,
-    title: "Okinawa Motors Landing Page Clone",
-    github: "http://github.com",
-    demo: "https://okinawalandingpageclone.netlify.app/",
+    title: "Calendar using HTML, CSS & JavaScript",
+    github: "https://github.com/dheepthi-d/Simple-Calendar",
+    demo: "https://eventcalendarclone.netlify.app/",
   },
 ];
 

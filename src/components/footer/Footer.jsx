@@ -31,23 +31,20 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/dheepthidp/" target="_blank">
           <BsInstagram />
         </a>
-        <a href="https://twitter.com">
-          <BsTwitter />
-        </a>
-        <a href="https://linkedin.com">
+        <a
+          href="https://www.linkedin.com/in/dhulasi-dheepthi-d/"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://github.com">
+        <a href="https://github.com/dheepthi-d" target="_blank">
           <BsGithub />
         </a>
-        <a href="https://hackerrank.com">
+        <a href="https://www.hackerrank.com/dhulasidheepthid" target="_blank">
           <SiHackerrank />
-        </a>
-        <a href="https://leetcode.com">
-          <SiLeetcode />
         </a>
       </div>
 
