@@ -4,6 +4,7 @@ import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
+import IMG5 from "../../assets/portfolio5.png";
 
 const data = [
   {
@@ -28,11 +29,18 @@ const data = [
     demo: "https://lenzdpotraits.netlify.app/",
   },
   {
-    id: 4,
-    image: IMG2,
-    title: "Calendar using HTML, CSS & JavaScript",
-    github: "https://github.com/dheepthi-d/Simple-Calendar",
-    demo: "https://eventcalendarclone.netlify.app/",
+    // id: 4,
+    // image: IMG2,
+    // title: "Calendar using HTML, CSS & JavaScript",
+    // github: "https://github.com/dheepthi-d/Simple-Calendar",
+    // demo: "https://eventcalendarclone.netlify.app/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Food Genie App",
+    github: "http://github.com/dheepthi-d/Food-Recipe-Genie",
+    demo: "https://foodrecipegenie.netlify.app/",
   },
 ];
 

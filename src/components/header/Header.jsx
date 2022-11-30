@@ -10,12 +10,9 @@ const Header = () => {
       <div className="container header__container">
         <h3>Hello there! </h3>
         <h1>I'm Dhulasi Dheepthi D</h1>
-        <h2 className="text-light">Web Developer</h2>
+        <h2 className="text-light">I am a Web Developer</h2>
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img src={ME} />
-        </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>

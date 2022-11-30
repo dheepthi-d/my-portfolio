@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 11rem;
   overflow: hidden;
 }
 
@@ -13,15 +13,16 @@ header {
 .container h5 {
   font-size: 0rem;
 }
-.container h5 {
+.container h3 {
   font-size: 3rem;
 }
 
 .container h1 {
-  font-weight: 1000;
+  font-size: 7rem;
+  font-weight: 1500;
   color: transparent;
   -webkit-text-stroke: 1px rgb(57, 175, 175);
-  background: url(../../assets/dot.png);
+  /* background: url(../../assets/dot.png); */
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
