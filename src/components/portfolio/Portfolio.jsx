@@ -26,7 +26,7 @@ const data = [
     image: IMG3,
     title: "Photography Website Landing Page",
     github: "https://github.com/dheepthi-d/PhotographywebsiteLandingpage",
-    demo: "https://lenzdpotraits.netlify.app/",
+//     demo: "https://lenzdpotraits.netlify.app/",
   },
   {
     // id: 4,
