@@ -19,14 +19,13 @@ const data = [
     image: IMG4,
     title: "DIGILEARN- An Online Course Platform",
     github: "http://github.com",
-    demo: "https://okinawalandingpageclone.netlify.app/",
   },
   {
     id: 3,
     image: IMG3,
     title: "Photography Website Landing Page",
     github: "https://github.com/dheepthi-d/PhotographywebsiteLandingpage",
-//     demo: "https://lenzdpotraits.netlify.app/",
+    demo: "https://lenzdpotraits.netlify.app/",
   },
   {
     // id: 4,
